@@ -1,0 +1,200 @@
+2022-11-09 - v0.0.5 - Balance
+# Changed
+## The Sanctum Guardian
+- Increased HP to 45000 from 3200
+- Increased Atk to 85 from 42
+- Increased Str to 85 from 32
+- Increased Def to 75 from 35
+- Increased Ranged to 85 from 1
+- Increased Magic to 85 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+- Bone type to Bones
+## Masuta the Ascended
+- Increased HP to 55000 from 3200
+- Increased Atk to 90 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+- Bone type to Bones
+## Seiryu the Azure Serpent
+- Increased HP to 750000 from 3200
+- Increased Atk to 95 from 42
+- Increased Str to 95 from 32
+- Increased Def to 80 from 35
+- Increased Ranged to 95 from 1
+- Increased Magic to 95 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+- Bone type to Bones
+## Astellarn
+- Increased HP to 25000 from 3200
+- Increased Atk to 90 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+## Black Stone Dragon
+- Increased HP to 65000 from 3200
+- Increased Atk to 90 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+## Verak Lith
+- Increased HP to 60000 from 3200
+- Increased Atk to 90 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+## Crassian Leviathan
+- Increased HP to 38000 from 3200
+- Increased Atk to 92 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+## Taraket the Necromancer
+- Increased HP to 40000 from 3200
+- Increased Atk to 92 from 42
+- Increased Str to 90 from 32
+- Increased Def to 85 from 35
+- Increased Ranged to 90 from 1
+- Increased Magic to 90 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+- Bone type to Bones
+## The Ambassador
+- Increased HP to 100000 from 3200
+- Increased Atk to 85 from 42
+- Increased Str to 85 from 32
+- Increased Def to 75 from 35
+- Increased Ranged to 85 from 1
+- Increased Magic to 85 from 1
+- Decreased Attack Speed to 2.4 from 3.6
+- Bone type to Bones
+## Kayle
+- Increased HP to 75 from 50
+- Decreased Atk to 1 from 10
+- Decreased Str to 1 from 10
+- Decreased Def to 1 from 8
+- Decreased Ranged to 1 from 8
+- Decreased Attacked Speed to 2.4 from 3.6
+## Caitlin
+- Increased HP to 75 from 50
+- Decreased Atk to 1 from 10
+- Decreased Str to 1 from 10
+- Decreased Def to 1 from 6
+- Decreased Magic to 1 from 12
+- Decreased Attacked Speed to 2.4 from 3.6
+## Reese
+- Increased HP to 75 from 64
+- Decreased Atk to 1 from 10
+- Decreased Str to 1 from 12
+- Decreased Def to 1 from 10
+- Increased Attacked Speed to 2.4 from 1.8
+
+
+
+2022-11-08 - v0.0.4 - Royal Elite Dungeons
+# Added
+## (NEW) Dragonkin Laboratory
+- Astellarn
+- Verak Lith
+- Black Stone Dragon
+## (NEW) Royal Dragon Lair
+- King Black Dragon
+- Queen Black Dragon
+## (NEW) Temple of Aminishi
+- The Sanctum Guardian
+- Masuta the Ascended
+- Seiryu the Azure Serpent
+## (NEW) The Shadow Reef
+- Crassian Leviathan
+- Taraket the Necromancer
+- The Ambassador
+
+# Changed
+## Baby Mole
+- Lowered hp to 10 from 20
+## Giant Mole
+- Increase strength to 14 from 10
+- Increased defence to 14 from 10
+## Caitlin
+- Lowered HP to 40 from 50
+- Increased drop chance of staff by 2%
+## Kayle
+- Lowered HP to 50 from 60
+- Increased drop chance of bow by 2%
+## Reese
+- Lowered HP to 65 to 75
+- Increased drop chance of swords by 2%
+
+# File structure
+- Moved a monsters into their own files (If this becomes an issue I'll put monsters into their area file instead)
+
+
+
+# 2022-11-07 - v0.0.3 - Weapon Fix
+The weapons from The Blood Pact should no longer brick characters
+## Changed
+### Kayle
+- Lowered defence to 8 from 10
+### Caitlin
+- Lowered defence to 6 from 10
+- Increased magic to 12 from 10 
+### Reese
+- Lowered hp to 75 from 120
+- Increased strength to 12 from 10
+### Kayle's Chargebow
+- Now has an attack type (ranged)
+- Attack speed decreased to 2.8 from 3.6 To put it in line with other shortbows
+### Caitlin's Staff
+- Now has an attack type (magic)
+### Reese's Sword
+- Now has an attack type (melee)
+- Attack speed increased to 2.2 from 1.8
+
+## Removed
+- Method to remove Kayle's Chargebow from player
+
+
+
+# 2022-11-06 - v0.0.2 - The Mole Hole
+## Added:
+### The Mole Lair
+- Baby Mole
+- Giant Mole
+### The Blood Pact
+- Kayle's Chargebow
+- Caitlin's Staff
+- Reese's Sword
+- Reese's Off-hand Sword
+
+## Changed:
+### General
+- The Blood Pact enemies are no longer needed for 100% game completion 
+### Kayle
+- Switched to ranged combat from melee
+- Increased HP from 20 to 60
+- Increased Range from 1 to 8
+- No longer drops potatoes but his chargebow
+### Caitlin
+- Switched to magic combat from melee
+- Increased HP from 20 to 50
+- Increased Magic from 1 to 10
+### Reese
+- Lowered attack speed from 3.6 to 1.8 seconds
+- Increased HP from 20 to 120
+
+
+
+# 2022-11-05 - v0.0.1 - Init
+## Added:
+### The Blood Pact Dungeon added
+- Kayle
+- Caitlin
+- Reese

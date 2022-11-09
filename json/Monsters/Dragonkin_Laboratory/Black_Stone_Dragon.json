@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Black_Stone_Dragon",
+                "name":"Black Stone Dragon",
+                "media": "assets/Monsters/Black_Stone_Dragon.png",
+                "levels": {
+                    "Hitpoints": 65000,
+                    "Attack": 90,
+                    "Strength": 90,
+                    "Defence": 85,
+                    "Ranged": 90,
+                    "Magic": 90
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":2400
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Dragon_Bones",
+                    "quantity": 4
+                }
+
+            }
+        ]
+    }
+}

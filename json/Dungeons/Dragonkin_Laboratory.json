@@ -1,0 +1,42 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "Dragonkin_Laboratory",
+                "name": "Dragonkin Laboratory",
+                "media": "assets/Dungeons/Dragonkin_Laboratory.png",
+                "monsterIDs": [
+                    "TheWorld:Astellarn",
+                    "TheWorld:Verak_Lith",
+                    "TheWorld:Black_Stone_Dragon"
+                ],
+                "difficulty": [
+                    7
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 30
+                    }
+                ],
+                "areaEffectDescription": "",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "increasedAttackIntervalPercent",
+                    "magnitude": 20
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder": [
+            {
+                "insertAt": "After",
+                "afterID": "TheWorld:The_Blood_Pact",
+                "ids": [
+                    "TheWorld:Dragonkin_Laboratory"
+                ]
+            }
+        ]
+    }
+}

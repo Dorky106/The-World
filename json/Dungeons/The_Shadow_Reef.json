@@ -1,0 +1,42 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "The_Shadow_Reef",
+                "name": "The Shadow Reef",
+                "media": "assets/Dungeons/The_Shadow_Reef.png",
+                "monsterIDs": [
+                    "TheWorld:Crassian_Leviathan",
+                    "TheWorld:Taraket_the_Necromancer",
+                    "TheWorld:The_Ambassador"
+                ],
+                "difficulty": [
+                    7
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 30
+                    }
+                ],
+                "areaEffectDescription": "",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "increasedAttackIntervalPercent",
+                    "magnitude": 20
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder": [
+            {
+                "insertAt": "After",
+                "afterID": "TheWorld:The_Blood_Pact",
+                "ids": [
+                    "TheWorld:The_Shadow_Reef"
+                ]
+            }
+        ]
+    }
+}

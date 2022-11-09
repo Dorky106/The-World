@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Giant_Mole",
+                "name":"Giant Mole",
+                "media": "assets/Monsters/Giant_Mole.png",
+                "levels": {
+                    "Hitpoints": 20,
+                    "Attack": 10,
+                    "Strength": 14,
+                    "Defence": 14,
+                    "Ranged": 1,
+                    "Magic": 1
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":2400
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":1,
+                    "max":2
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Bones",
+                    "quantity": 1
+                }
+
+            }
+        ]
+    }
+}

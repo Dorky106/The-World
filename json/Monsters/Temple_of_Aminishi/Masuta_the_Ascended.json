@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Masuta_the_Ascended",
+                "name":"Masuta the Ascended",
+                "media": "assets/Monsters/Masuta_the_Ascended.png",
+                "levels": {
+                    "Hitpoints": 5500,
+                    "Attack": 90,
+                    "Strength": 90,
+                    "Defence": 85,
+                    "Ranged": 90,
+                    "Magic": 90
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":2400
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Bones",
+                    "quantity": 1
+                }
+
+            }
+        ]
+    }
+}

@@ -1,0 +1,41 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "Royal_Dragon_Lair",
+                "name": "Royal Dragon Lair",
+                "media": "assets/Dungeons/Royal_Dragon_Lair.png",
+                "monsterIDs": [
+                    "TheWorld:King_Black_Dragon",
+                    "TheWorld:Queen_Black_Dragon"
+                ],
+                "difficulty": [
+                    7
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 1
+                    }
+                ],
+                "areaEffectDescription": "${effectValue}% Damage Reduction",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "decreasedDamageReduction",
+                    "magnitude": 8
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder":[
+            {
+                "insertAt": "After",
+                "afterID": "melvorF:High_Lands",
+                "ids":[
+                    "TheWorld:Royal_Dragon_Lair"
+                ]
+            }
+        ]
+    }
+}

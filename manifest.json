@@ -1,0 +1,5 @@
+{
+    "namespace": "TheWorld",
+    "icon": "assets/logo.png",
+    "setup": "setup.mjs"
+}

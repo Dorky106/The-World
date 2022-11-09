@@ -1,0 +1,41 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "Mole_Lair",
+                "name": "Mole Lair",
+                "media": "assets/Dungeons/Mole_Lair.png",
+                "monsterIDs": [
+                    "TheWorld:Baby_Mole",
+                    "TheWorld:Giant_Mole"
+                ],
+                "difficulty": [
+                    1
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 1
+                    }
+                ],
+                "areaEffectDescription": "${effectValue}% Damage Reduction",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "decreasedDamageReduction",
+                    "magnitude": 8
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder":[
+            {
+                "insertAt": "After",
+                "afterID": "melvorF:High_Lands",
+                "ids":[
+                    "TheWorld:Mole_Lair"
+                ]
+            }
+        ]
+    }   
+}

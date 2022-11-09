@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"King_Black_Dragon",
+                "name":"King Black Dragon",
+                "media": "assets/Monsters/King_Black_Dragon.png",
+                "levels": {
+                    "Hitpoints": 300,
+                    "Attack": 30,
+                    "Strength": 27,
+                    "Defence": 32,
+                    "Ranged": 1,
+                    "Magic": 1
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":2400
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Dragon_Bones",
+                    "quantity": 4
+                }
+
+            }
+        ]
+    }
+}

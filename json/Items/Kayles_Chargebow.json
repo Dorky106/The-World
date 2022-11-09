@@ -1,0 +1,39 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data": {
+        "items": [
+            {
+                "id": "Kayles_Chargebow",
+                "name": "Kayle's Chargebow",
+                "category": "Combat",
+                "type": "Weapon",
+                "attackType":"ranged",
+                "media": "assets/Items/Kayles_Chargebow.png",
+                "ignoreCompletion": true,
+                "obtainFromItemLog": false,
+                "golbinRaidExclusive": false,
+                "sellsFor": 1,
+                "tier": "none",
+                "validSlots": [ "Weapon" ],
+                "occupiesSlots": [],
+                "equipRequirements": [{
+                    "type": "SkillLevel",
+                    "skillID":"melvorD:Ranged",
+                    "level": 1
+                }],
+                "ammoType":"Arrows",
+                "equipmentStats": [
+                    { "key": "attackSpeed", "value": 2800 },
+                    { "key": "rangedAttackBonus", "value": 5},
+                    { "key": "rangedStrengthBonus", "value": 2}
+                ],
+                "modifiers":{
+                    "increasedRangedAccuracyBonus": 5,
+                    "increasedAmmoPreservation": 100,
+                    "increasedRangedMaxHit": 2
+                },
+                "itemType": "Weapon"
+            }
+        ]
+    }
+}

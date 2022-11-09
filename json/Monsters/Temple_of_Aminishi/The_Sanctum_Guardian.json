@@ -1,0 +1,50 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"The_Sanctum_Guardian",
+                "name":"The Sanctum Guardian",
+                "media": "assets/Monsters/The_Sanctum_Guardian.png",
+                "levels": {
+                    "Hitpoints": 4500,
+                    "Attack": 85,
+                    "Strength": 85,
+                    "Defence": 75,
+                    "Ranged": 85,
+                    "Magic": 85
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":2400
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }
+                ],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Bones",
+                    "quantity": 1
+                }
+
+            }
+        ]
+    }
+}

@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Seiryu_the_Azure_Serpent",
+                "name":"Seiryu the Azure Serpent",
+                "media": "assets/Monsters/Seiryu_the_Azure_Serpent.png",
+                "levels": {
+                    "Hitpoints": 75000,
+                    "Attack": 95,
+                    "Strength": 95,
+                    "Defence": 80,
+                    "Ranged": 95,
+                    "Magic": 95
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":3600
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Bones",
+                    "quantity": 4
+                }
+
+            }
+        ]
+    }
+}

@@ -1,0 +1,56 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Reese",
+                "name":"Reese",
+                "media": "assets/Monsters/Reese.png",
+                "levels": {
+                    "Hitpoints": 75,
+                    "Attack": 1,
+                    "Strength": 1,
+                    "Defence": 1,
+                    "Ranged": 1,
+                    "Magic": 1
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":1800
+                    }
+                ],
+                "ignoreCompletion": true,
+                "attackType": "melee",
+                "specialAttacks": [ ],
+                "passives": [],
+                "lootChance": 5,
+                "lootTable": [{
+                    "itemID":"TheWorld:Reeses_Sword",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                },
+                {
+                    "itemID":"TheWorld:Reeses_Off_hand_Sword",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }
+                ],
+                "gpDrops":{
+                    "min":1,
+                    "max":2
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Bones",
+                    "quantity": 1
+                }
+
+            }
+        ]
+    }
+}

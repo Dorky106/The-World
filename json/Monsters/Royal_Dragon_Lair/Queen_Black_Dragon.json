@@ -1,0 +1,49 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "monsters": [
+            {
+                "id":"Queen_Black_Dragon",
+                "name":"Queen Black Dragon",
+                "media": "assets/Monsters/Queen_Black_Dragon.png",
+                "levels": {
+                    "Hitpoints": 250,
+                    "Attack": 35,
+                    "Strength": 22,
+                    "Defence": 30,
+                    "Ranged": 1,
+                    "Magic": 1
+                },
+                "equipmentStats": [
+                    {
+                        "key":"attackSpeed",
+                        "value":3600
+                    }
+                ],
+                "ignoreCompletion": false,
+                "attackType": "melee",
+                "specialAttacks": [],
+                "passives": [],
+                "lootChance": 3,
+                "lootTable": [{
+                    "itemID":"melvorD:Potatoes",
+                    "minQuantity": 1,
+                    "maxQuantity": 1,
+                    "weight": 1
+                }],
+                "gpDrops":{
+                    "min":100,
+                    "max":200
+                },
+                "canSlayer": false,
+                "isBoss": false,
+                "selectedSpell": "melvorD:FireBolt",
+                "bones":{
+                    "itemID": "melvorD:Dragon_Bones",
+                    "quantity": 4
+                }
+
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "The_Blood_Pact",
+                "name": "The Blood Pact",
+                "media": "assets/Dungeons/The_Blood_Pact.png",
+                "monsterIDs": [
+                    "TheWorld:Kayle",
+                    "TheWorld:Caitlin",
+                    "TheWorld:Reese"
+                ],
+                "difficulty": [
+                    1
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 1
+                    }
+                ],
+                "areaEffectDescription": "${effectValue}% Damage Reduction",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "decreasedDamageReduction",
+                    "magnitude": 8
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder":[
+            {
+                "insertAt": "After",
+                "afterID": "melvorF:High_Lands",
+                "ids":[
+                    "TheWorld:The_Blood_Pact"
+                ]
+            }
+        ]
+    }   
+}

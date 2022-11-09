@@ -1,0 +1,36 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data": {
+        "items": [
+            {
+                "id": "Reeses_Off_hand_Sword",
+                "name": "Reese's Off-hand Sword",
+                "category": "Combat",
+                "type": "Weapon",
+                "media": "assets/Items/Reeses_Off_hand_Sword.png",
+                "ignoreCompletion": true,
+                "obtainFromItemLog": false,
+                "golbinRaidExclusive": false,
+                "sellsFor": 1,
+                "tier": "none",
+                "validSlots": [ "Shield" ],
+                "occupiesSlots": [],
+                "equipRequirements": [{
+                    "type": "SkillLevel",
+                    "skillID":"melvorD:Attack",
+                    "level": 1
+                }],
+                "ammoType":"None",
+                "equipmentStats": [
+                    { "key": "slashAttackBonus", "value": 1},
+                    { "key": "meleeDefenceBonus", "value": 1}
+                ],
+                "modifiers":{
+                    "decreasedAttackInterval": 200,
+                    "decreasedMeleeAccuracyBonus": 2
+                },
+                "itemType": "Equipment"
+            }
+        ]
+    }
+}

@@ -1,0 +1,42 @@
+{
+    "$schema": "https://melvoridle.com/assets/schema/gameData.json",
+    "data":{
+        "slayerAreas": [
+            {
+                "id": "Temple_of_Aminishi",
+                "name": "Temple of Aminishi",
+                "media": "assets/Dungeons/Temple_of_Aminishi.png",
+                "monsterIDs": [
+                    "TheWorld:The_Sanctum_Guardian",
+                    "TheWorld:Masuta_the_Ascended",
+                    "TheWorld:Seiryu_the_Azure_Serpent"
+                ],
+                "difficulty": [
+                    7
+                ],
+                "entryRequirements": [
+                    {
+                        "type": "SkillLevel",
+                        "skillID": "melvorD:Slayer",
+                        "level": 30
+                    }
+                ],
+                "areaEffectDescription": "",
+                "areaEffect":{
+                    "target": "Player",
+                    "modifier": "increasedAttackIntervalPercent",
+                    "magnitude": 20
+                }
+            }
+        ],
+        "slayerAreaDisplayOrder": [
+            {
+                "insertAt": "After",
+                "afterID": "TheWorld:The_Blood_Pact",
+                "ids": [
+                    "TheWorld:Temple_of_Aminishi"
+                ]
+            }
+        ]
+    }
+}
