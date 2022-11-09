@@ -7,10 +7,10 @@
                 "name":"Giant Mole",
                 "media": "assets/Monsters/Giant_Mole.png",
                 "levels": {
-                    "Hitpoints": 20,
-                    "Attack": 10,
-                    "Strength": 14,
-                    "Defence": 14,
+                    "Hitpoints": 7800,
+                    "Attack": 65,
+                    "Strength": 50,
+                    "Defence": 45,
                     "Ranged": 1,
                     "Magic": 1
                 },
@@ -39,7 +39,7 @@
                 "isBoss": false,
                 "selectedSpell": "melvorD:FireBolt",
                 "bones":{
-                    "itemID": "melvorD:Bones",
+                    "itemID": "melvorD:Big_Bones",
                     "quantity": 1
                 }
 

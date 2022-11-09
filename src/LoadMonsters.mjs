@@ -1,10 +1,4 @@
-export async function setup({ gameData }) {
-    //Load Items
-    await gameData.addPackage("json/Items/Kayles_Chargebow.json");
-    await gameData.addPackage("json/Items/Caitlins_Staff.json");
-    await gameData.addPackage("json/Items/Reeses_Sword.json");
-    await gameData.addPackage("json/Items/Reeses_Off-Hand_Sword.json");
-    //Load Monsters
+export async function Load(gameData) {
     await gameData.addPackage("json/Monsters/Dragonkin_Laboratory/Astellarn.json");
     await gameData.addPackage("json/Monsters/Dragonkin_Laboratory/Black_Stone_Dragon.json");
     await gameData.addPackage("json/Monsters/Dragonkin_Laboratory/Verak_Lith.json");
@@ -21,13 +15,5 @@ export async function setup({ gameData }) {
     await gameData.addPackage("json/Monsters/The_Shadow_Reef/Crassian_Leviathan.json");
     await gameData.addPackage("json/Monsters/The_Shadow_Reef/Taraket_the_Necromancer.json");
     await gameData.addPackage("json/Monsters/The_Shadow_Reef/The_Ambassador.json");
-    //Load Combat Areas
-    //Load Slayer Areas
-    await gameData.addPackage("json/Dungeons/The_Blood_Pact.json");
-    await gameData.addPackage("json/Dungeons/Dragonkin_Laboratory.json");
-    await gameData.addPackage("json/Dungeons/Mole_Lair.json");
-    await gameData.addPackage("json/Dungeons/Royal_Dragon_Lair.json");
-    await gameData.addPackage("json/Dungeons/Temple_of_Aminishi.json");
-    await gameData.addPackage("json/Dungeons/The_Shadow_Reef.json");
-    //Load Dungeons
+    console.log("Monsters Loaded!");
 }

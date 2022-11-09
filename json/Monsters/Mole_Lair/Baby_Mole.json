@@ -7,10 +7,10 @@
                 "name":"Baby Mole",
                 "media": "assets/Monsters/Baby_Mole.png",
                 "levels": {
-                    "Hitpoints": 10,
-                    "Attack": 10,
-                    "Strength": 10,
-                    "Defence": 10,
+                    "Hitpoints": 5,
+                    "Attack": 4,
+                    "Strength": 3,
+                    "Defence": 2,
                     "Ranged": 1,
                     "Magic": 1
                 },

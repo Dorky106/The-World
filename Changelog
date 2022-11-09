@@ -1,5 +1,16 @@
 2022-11-09 - v0.0.5 - Balance
 # Changed
+## Baby Mole
+- Increased HP to 7800 from 20
+- Increased Atk to 65 from 10
+- Increased Str to 50 from 14
+- Increased Def to 45 from 14
+## Giant Mole
+- Increased HP to 7800 from 20
+- Increased Atk to 65 from 10
+- Increased Str to 50 from 14
+- Increased Def to 45 from 14
+- Bone type to Big Bones
 ## The Sanctum Guardian
 - Increased HP to 45000 from 3200
 - Increased Atk to 85 from 42
