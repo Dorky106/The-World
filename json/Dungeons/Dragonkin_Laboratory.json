@@ -1,7 +1,7 @@
 {
     "$schema": "https://melvoridle.com/assets/schema/gameData.json",
     "data":{
-        "slayerAreas": [
+        "dungeons": [
             {
                 "id": "Dragonkin_Laboratory",
                 "name": "Dragonkin Laboratory",
@@ -12,27 +12,22 @@
                     "TheWorld:Black_Stone_Dragon"
                 ],
                 "difficulty": [
-                    7
+                    1
                 ],
                 "entryRequirements": [
                     {
                         "type": "SkillLevel",
                         "skillID": "melvorD:Slayer",
-                        "level": 30
+                        "level": 1
                     }
                 ],
-                "areaEffectDescription": "",
-                "areaEffect":{
-                    "target": "Player",
-                    "modifier": "increasedAttackIntervalPercent",
-                    "magnitude": 20
-                }
+                "oneTimeRewardID": "melvorD:Egg_Chest",
+                "dropBones": true
             }
         ],
-        "slayerAreaDisplayOrder": [
+        "dungeonDisplayOrder": [
             {
-                "insertAt": "After",
-                "afterID": "TheWorld:The_Blood_Pact",
+                "insertAt": "Start",
                 "ids": [
                     "TheWorld:Dragonkin_Laboratory"
                 ]

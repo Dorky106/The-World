@@ -1,10 +1,16 @@
+2022-11-?? - v0.0.6 - True Dungeons
+# Changed
+- Dragonkin Laboratory is now a Dungeon
+
+
+
 2022-11-09 - v0.0.5 - Balance
 # Changed
 ## Baby Mole
-- Increased HP to 7800 from 20
-- Increased Atk to 65 from 10
-- Increased Str to 50 from 14
-- Increased Def to 45 from 14
+- Decreased HP to 5 from 10
+- Decreased Atk to 4 from 10
+- Increased Str to 3 from 10
+- Increased Def to 2 from 10
 ## Giant Mole
 - Increased HP to 7800 from 20
 - Increased Atk to 65 from 10
