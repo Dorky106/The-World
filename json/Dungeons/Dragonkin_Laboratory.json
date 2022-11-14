@@ -21,7 +21,13 @@
                         "level": 1
                     }
                 ],
-                "oneTimeRewardID": "melvorD:Egg_Chest",
+                "rewardItemIDs": [
+                    "melvorD:Egg_Chest"
+                ],
+                "pet":{
+                    "petID":"melvorTotH:Webbie",
+                    "weight": 0
+                },
                 "dropBones": true
             }
         ],

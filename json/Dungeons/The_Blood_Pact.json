@@ -1,7 +1,7 @@
 {
     "$schema": "https://melvoridle.com/assets/schema/gameData.json",
     "data":{
-        "slayerAreas": [
+        "dungeons": [
             {
                 "id": "The_Blood_Pact",
                 "name": "The Blood Pact",
@@ -21,18 +21,19 @@
                         "level": 1
                     }
                 ],
-                "areaEffectDescription": "${effectValue}% Damage Reduction",
-                "areaEffect":{
-                    "target": "Player",
-                    "modifier": "decreasedDamageReduction",
-                    "magnitude": 8
-                }
+                "rewardItemIDs": [
+                    "melvorD:Egg_Chest"
+                ],
+                "pet":{
+                    "petID":"melvorTotH:Webbie",
+                    "weight": 0
+                },
+                "dropBones": true
             }
         ],
-        "slayerAreaDisplayOrder":[
+        "dungeonDisplayOrder":[
             {
-                "insertAt": "After",
-                "afterID": "melvorF:High_Lands",
+                "insertAt": "Start",
                 "ids":[
                     "TheWorld:The_Blood_Pact"
                 ]
